@@ -1,66 +1,50 @@
-header{
-    max-width: 600px;
+body{
+    display: grid;   
+    justify-content: center;    
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+header{        
     background-color: #3377AA;           
     display: grid;
     grid-template-columns: 150px auto;
     border-radius: 20px;
-    height: 180px;
+    height: 150px;
     color: white;
-    align-content: center;
-    padding-right: 130px;            
+    align-content: center;                
 }
 
-.content{   
-    display: grid;
-    justify-content: center;            
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.photo{
-    width: 120px;
-    /*margin-top: 25px;*/
-    margin-left: 40px;
+img{
+    margin-left: 20px;    
     border-radius: 3px;
-    
+}
+
+header h1{    
+    align-self: center;
 }
 
 .line{
     border-top: 1px solid grey;
     height: 2px;    
-    max-width: 700px;
-    
-}
-
-#header-text{
-    align-self: center;
-    margin-left: 40px;
-}
-
-.footer-text{
-    margin-top: 0px;
-    color: grey;    
-}
-
-#top-text{
-    margin-bottom: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        
+    max-width: 600px;
 }
 
 ul li{
     padding: 5px;
 }
 
-footer{
+footer{    
+    padding: 50px;
     display:grid;
     justify-content: center;
     align-content: center;
     text-align: center;    
     background-color: #3377AA;               
     border-radius: 20px;
-    height: 100px;
+    height: 20px;
     color: white;    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;           
+    margin-top: 30px;
 }
 
 #updated{
