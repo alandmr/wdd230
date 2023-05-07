@@ -1,8 +1,7 @@
 body{
     display: grid;   
     justify-content: center;    
-    font-family: 'Courier New', Courier, monospace;    
-}
+    font-family: 'Bree Serif', serif;}
 
 header{        
     background-color: #3377AA;           
@@ -26,7 +25,7 @@ header h1{
 .line{
     border-top: 1px solid grey;
     height: 2px;    
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 
 ul li{

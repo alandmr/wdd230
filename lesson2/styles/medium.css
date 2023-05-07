@@ -1,0 +1,21 @@
+@media screen and (max-width:1380px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+        justify-items: center;
+        column-gap: 30px;
+        transition: .5s ease-in-out;
+    }
+
+    #alignment-article{
+        
+        margin-top: 40px;        
+                
+    }  
+    
+    /* #alignment-article img{
+        display: flex;
+        max-width: 100%;
+        padding: 20px;
+    } */
+}
