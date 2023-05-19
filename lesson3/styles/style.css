@@ -1,0 +1,136 @@
+body{    
+    max-width: 1200px;
+    margin: 0 auto;        
+}
+
+
+
+header{        
+    background-color: #A3B18A;  
+    padding: 1em;
+    text-align: center;     
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #344E41;
+}
+
+
+nav{          
+    
+    
+    background-color: #3A5A40;
+    color: white;    
+    text-align: center;
+    justify-content: center;
+    line-height: 3em;
+    font-size: 1.5em;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+}
+
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 23px;
+  
+}
+
+nav a:hover{
+    background-color: #588157;
+}
+
+
+
+main{
+    display: flex;
+    flex-flow: column;        
+    background-color: #DAD7CD;  
+}
+
+    
+main h1{
+    font-size: 2.5em;    
+}
+
+main h1, h2,h3,h4,h5,h6{
+    padding-left: 10px;
+}
+
+main p{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5em;    
+    margin-top: 0;  
+    text-align: justify; 
+    padding-left: 20px;    
+    padding-right: 20px;  
+    
+
+}
+
+main img{        
+    
+    width: 50%;   
+    padding-bottom: 20px; 
+    align-self: center;
+}
+
+.main_design{
+    align-items: center;
+}
+
+hr{
+    border: solid 1px;
+    width: 100%;
+}
+
+ul li{
+    font-size: 1.3em;
+}
+
+table{
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+th{
+    background-color: #999;
+}
+td{
+    width: 25%;
+    height: 3em;
+}
+
+.primary, .secondary, .accent1, .accent2{
+    color: white;
+}
+
+.primary {
+    background-color: #344E41;
+}
+.secondary {
+    background-color: #3A5A40;
+}
+.accent1 {
+    background-color: #588157;
+}
+.accent2{
+    background-color: #A3B18A;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;    
+    color: white;
+    background-color: #3A5A40;
+    text-align: center;    
+    font-size: 1.2em;    
+    height: 120px;    
+    width: 100%;
+}

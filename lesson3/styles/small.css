@@ -1,0 +1,16 @@
+@media screen and (max-width :600px) and (orientation:portrait){
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        line-height: 1em;
+    }
+
+    header, footer{
+        font-size: 0.9em;
+    }
+
+    main{
+        font-size: 0.8em;
+    }
+}
