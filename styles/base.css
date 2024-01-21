@@ -1,0 +1,94 @@
+body{
+    display: grid;   
+    justify-content: center;    
+    font-family: 'Bree Serif', serif;}
+
+header{        
+    background-color: #1d4d72;           
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    height: 150px;
+    color: white;
+    align-content: center;                
+}
+
+header h1{
+    margin-left: 20px;
+    align-self: center;    
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+
+nav a{
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+main h2{
+    text-align: center;
+}
+
+img{
+    margin-left: auto;    
+    border-radius: 3px;
+}
+
+
+
+ul li{
+    padding: 5px;
+}
+
+footer{    
+    padding: 50px;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;    
+    background-color: #1d4d72;                   
+    height: 20px;
+    color: white;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;           
+    margin-top: 30px;
+}
+
+#updated{
+    color: yellow;
+}
+
+.card{
+    border: gray 1px solid;
+    border-radius: 5px;  
+    display: grid;  
+
+        
+}
+
+.card h3{        
+    color: white;
+    text-align: center;  
+    background-color: #1d4d72;    
+    height: 50px;   
+    margin-block-start: 0px;  
+}
+
+p{
+    text-align: center;
+    margin-block-start: 0px;
+}
+
+
+
