@@ -1,68 +1,97 @@
-body{
-    display: grid;   
-    justify-content: center;    
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{    
     font-family: 'Bree Serif', serif;}
+    
 
 header{        
-    background-color: #1d4d72;           
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;   
-    height: 150px;
+    background-color: #1d4d72;      
+    max-width: 800px;     
     color: white;
-    align-content: center;                
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);            
 }
 
-header h1{
-    margin-left: 20px;
-    align-self: center;    
+header,
+main {	
+	margin: 0 auto;
 }
+
+main {
+	max-width: 767px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+section ul{
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+
 
 nav{
     background-color: black;
-    text-align: center;
-    font-size: 1.3em;
+    margin: 0 auto;
+	max-width: 800px;
+    margin-bottom: 20px;
     
+}
+
+nav ul {
+	list-style-type: none;
 }
 
 nav a{
     color: white;
+    display: block;	
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
     
 }
 
-a{
-    text-decoration: none;
+
+.active {
+	color: yellow;
 }
 
-ul li{
-    list-style: none;
+nav a:hover {
+	text-decoration:underline;
 }
+
+
 
 main h2{
     text-align: center;
 }
 
-img{
-    margin-left: auto;    
-    border-radius: 3px;
-}
-
-
-
-ul li{
-    padding: 5px;
-}
 
 footer{    
-    padding: 50px;
-    display:grid;
-    justify-content: center;
-    align-content: center;
+    max-width: 800px;
+	margin: 0 auto;
+    padding: 30px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
     text-align: center;    
-    background-color: #1d4d72;                   
-    height: 20px;
+    background-color: #1d4d72;                       
     color: white;    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;           
-    margin-top: 30px;
+    
+}
+
+footer, p{
+    display: block;
 }
 
 #updated{
@@ -72,9 +101,7 @@ footer{
 .card{
     border: gray 1px solid;
     border-radius: 5px;  
-    display: grid;  
-
-        
+           
 }
 
 .card h3{        
@@ -88,6 +115,21 @@ footer{
 p{
     text-align: center;
     margin-block-start: 0px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+
+
 }
 
 
