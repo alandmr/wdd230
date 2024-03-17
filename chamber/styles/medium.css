@@ -1,0 +1,31 @@
+@media screen and (min-width: 500px){
+
+    header img{
+        height: 65px;
+	    width: 231px;
+    }
+
+    div{
+        grid-row: 1/2;
+        grid-column: 3/5;
+        justify-self: center;
+    }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    footer{
+        margin-top: 0px;
+    }
+
+}
