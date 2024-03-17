@@ -18,7 +18,7 @@
     }
 
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/salto_angel.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.5)), url("../images/salto_angel.jpg");
         height: 400px;
         background-position: center;
         background-repeat: no-repeat;
@@ -114,5 +114,14 @@
 
     footer{
         margin-top: 0px;
+    }
+
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        font-size: 2rem;        
     }
 }

@@ -120,7 +120,7 @@ main {
   }
 
   .hero-text button:hover {
-	background-color: #555;
+	background-color: #525252;
 	color: white;
   }
 
@@ -192,7 +192,7 @@ section ul{
 
 
 nav{
-    background-color: #6096BA;
+    background-color: #669CBC;
     margin: 0 auto;
 	max-width: 800px;
     margin-bottom: 20px;	
@@ -204,7 +204,7 @@ nav ul {
 }
 
 nav a{
-    color: white;
+    color: black;
     display: none;	
 	text-align: center;
 	padding: 1rem;
@@ -212,8 +212,8 @@ nav a{
 }
 
 
-.active {
-	color: yellow;
+.active::before {
+	content: "🚩";
 }
 
 nav a:hover {
@@ -279,6 +279,17 @@ p{
 
 hr{
     margin-bottom: 20px;
+}
+
+#mode {
+	display: grid;
+	position: absolute;
+	top: 4.5rem;
+	right: 0.5rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+	
 }
 
 @media (min-width: 500px) {
