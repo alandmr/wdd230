@@ -147,6 +147,7 @@ section, h1, hr{
 	content: "❌";
 }
 
+
 .n1 li::before{
 	content: "► ";
 	color: red;
@@ -154,6 +155,11 @@ section, h1, hr{
 
 .n2 li::before{
 	content: "✅ ";	
+}
+
+.n3 li::before{
+	content: "◈ ";	
+	color: red;
 }
 
 .card button{
