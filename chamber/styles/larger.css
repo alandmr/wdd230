@@ -18,7 +18,7 @@
     }
 
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.5)), url("../images/salto_angel.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.5)), url("../images/salto_angel.webp");
         height: 400px;
         background-position: center;
         background-repeat: no-repeat;
