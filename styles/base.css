@@ -151,15 +151,45 @@ hr{
     margin-bottom: 20px;
 }
 
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: auto;    
+}
+
+ .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.herolabel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: radial-gradient(#fff, #1d4d72);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 0.1rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.85;        
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 0.6rem;
+    font-family:"Great Vibes", serif;
+} 
+
 @media (min-width: 640px) {
 	nav ul {
 		display: flex;
 	}
 	nav ul li {
 		flex: 1 1 100%;
-	}
-
-
+	}    
 }
 
 

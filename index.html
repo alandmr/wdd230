@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <img src="images/myphoto.jpg" alt="Photo Aland Muñoz">
+        <img src="images/myphoto.webp" alt="Photo Aland Muñoz">
         <h1>Aland D. Muñoz</h1>
     </header>
     <button id="menu"></button>
@@ -34,9 +34,18 @@
             <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p41#p41" target="_blank">Scripture</a></li>
         </ul>
     </nav>
-    <main>
+    <main>        
         <h2>WDD 230: Web Frontend Development</h2>
-        <hr>        
+        <hr>   
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">                
+                <img src="images/hero-large.webp" alt="Caracas Venezuela Temple" >
+            </picture>
+            <div class="herolabel">
+                <p>Caracas Venezuela Temple</p>
+            </div>
+        </div>     
         <section class="card c1">
             <h3>Learning Activities</h3>
             <ul>

@@ -6,7 +6,11 @@
     }
 
     main h2,hr{
-        grid-column: 1/4;
+        grid-column: 1/4;           
+    }
+
+    .card{
+        grid-row: 4/5;
     }
 
     .c1{
@@ -16,12 +20,12 @@
 
     .c2{
         grid-column: 3/4;
-        grid-row: 3/4;
+        grid-row: 4/5;
     }
 
     iframe{
         grid-column: 1/4;
-        grid-row: 4/5;        
+        grid-row: 5/6;        
         height:450px;      
         padding: 0px;
     }
@@ -45,5 +49,39 @@
 
     footer{
         margin-top: 0px;
+        grid-row: 1/2;
+    }
+
+    .hero {
+        margin: 10px auto;
+        position: relative;
+        border: 1px solid rgba(0,0,0,.1);
+        height: auto;
+        grid-column: 1/4;
+    }
+    
+    .hero img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .herolabel {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: radial-gradient(#fff, #1d4d72);
+        border: 1px solid rgba(0,0,0,.75);
+        padding: 0.2rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.85;        
+    }
+    
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 1.2rem;
+        font-family:"Great Vibes", serif;
     }
 }
