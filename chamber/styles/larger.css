@@ -1,4 +1,4 @@
-@media screen and (min-width: 722px){
+@media screen and (min-width: 900px){
     
     header img{
         height: 90px;
@@ -123,5 +123,20 @@
         font-size: 3rem;
         cursor: pointer;
         font-size: 2rem;        
+    }
+
+    .hero {
+        margin: 10px 10px;
+        position: relative;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 5px;
+        height: auto;
+        grid-column: 1/4;
+    }
+    
+    .hero img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 }

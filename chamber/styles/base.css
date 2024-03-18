@@ -32,11 +32,12 @@ body{
 	margin-right: 10px;
 }
 
-div{
+#rrss{
 	grid-row: 1/2;
 	grid-column: 3/5;
 	justify-self: center;
 }
+
  
 .divH2{
 	grid-row: 3/4;
@@ -292,7 +293,21 @@ hr{
 	
 }
 
-@media (min-width: 500px) {
+.hero {
+    margin: 10px 10px;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: auto;    
+}
+
+ .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+@media (min-width: 400px) {
 	nav ul {
 		display: flex;
 	}
