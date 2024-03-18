@@ -30,7 +30,7 @@ fetch(`${apiEndpoint}?appid=${apiKey}&q=${encodeURIComponent('Barcelona, VE')}&u
 
     tempValue.textContent = `${tempa} °C`;
     weatherD.textContent = `${data.weather[0].description}`;
-    windSpeed.textContent = `Wind Speed: ${wspeed} m/h`;
+    windSpeed.textContent = `Wind Speed: ${wspeed.toFixed(2)} mph`;
     
     if (tempaF <= 50 && wspeed > 3){
         windChill = (35.74+0.6215*tempaF)-(35.75*wspeed^0.16)+(0.4275*tempaF*wspeed^0.16);
