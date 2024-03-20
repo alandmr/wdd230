@@ -59,7 +59,7 @@ fetch(`${apiEndpoint}?appid=${apiKey}&q=${encodeURIComponent('Barcelona, VE')}&u
 
     
 	iconWeather.setAttribute("src",icon);
-	tempValue.textContent = `${Math.round(tempa)} °C`;
+	tempValue.textContent = `${Math.round(tempaF)} °F`;
     weatherD.textContent = `${capitalizeFirstLetter(data.weather[0].description)}`;    
   })
   .catch(error => console.error(error))
