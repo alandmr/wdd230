@@ -5,16 +5,17 @@ let tempaF = 0;
 let tempa = 0;
 let wspeed = 0;
 let windChill = 0;
+let icon = "";
 
 let windChillValue = document.querySelector("#windchill");
 let tempValue = document.querySelector("#temperature");
 let weatherD = document.querySelector("#details");
 let windSpeed = document.querySelector("#windspeed");
-// let iconWeather = document.querySelector("#imgIcon");
+let iconWeather = document.querySelector(".iconWeather");
 
-// let urlIcon = "https://openweathermap.org/img/wn/";
-// let urlIcon2= "https://openweathermap.org/img/wn/04n@2x.png";
-
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 // Fetching temperature data
 fetch(`${apiEndpoint}?appid=${apiKey}&q=${encodeURIComponent('Barcelona, VE')}&units=metric`)
@@ -24,13 +25,14 @@ fetch(`${apiEndpoint}?appid=${apiKey}&q=${encodeURIComponent('Barcelona, VE')}&u
     tempa = data.main.temp;
     tempaF = (tempa * 9/5)+32;    
     wspeed = data.wind.speed*2.237;
-
-    // urlIcon = urlIcon + data.weather[0].icon+'@2x.png';
-    // iconWeather.setAttribute("src",urlIcon);
-
-    tempValue.textContent = `${tempa} °C`;
-    weatherD.textContent = `${data.weather[0].description}`;
+    icon = "https://openweathermap.org/img/wn/"+data.weather[0].icon+".png"; 
+    
+	  iconWeather.setAttribute("src",icon);
+    tempValue.textContent = `${Math.round(tempa)} °C`;
+    weatherD.textContent = `${capitalizeFirstLetter(data.weather[0].description)}`;
     windSpeed.textContent = `Wind Speed: ${wspeed.toFixed(2)} mph`;
+
+    
     
     if (tempaF <= 50 && wspeed > 3){
         windChill = (35.74+0.6215*tempaF)-(35.75*wspeed^0.16)+(0.4275*tempaF*wspeed^0.16);
@@ -41,3 +43,18 @@ fetch(`${apiEndpoint}?appid=${apiKey}&q=${encodeURIComponent('Barcelona, VE')}&u
     
   })
   .catch(error => console.error(error))
+
+  // Block of code for page number visits
+
+
+const visitsDisplay = document.querySelector(".visits");
+let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
+}
+
+numVisits++;
+localStorage.setItem("numVisits-ls", numVisits);

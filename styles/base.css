@@ -184,6 +184,11 @@ hr{
     font-family:"Great Vibes", serif;
 } 
 
+.c2 img{
+    display: block;
+    margin: auto;
+}
+
 @media (min-width: 640px) {
 	nav ul {
 		display: flex;

@@ -163,6 +163,11 @@ section, h1, hr{
 	color: red;
 }
 
+.c2 img{
+	display: block;
+	margin: auto;
+}
+
 .card button{
 	cursor: pointer;
 	padding: 8px 10px;
