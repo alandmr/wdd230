@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media  screen and (min-width: 550px){
 
     header img{
         height: 65px;
@@ -95,5 +95,7 @@
         height: auto;
         object-fit: cover;
     }
+
+
 
 }
