@@ -170,5 +170,26 @@
         grid-row: 2/3;
         grid-column: 1/5;
     }
+
+    .wf1{
+        grid-column: 1/4;
+        width: 400px;
+    }
+
+    .membershipDetails{
+        grid-column: 4/5;
+        height: fit-content;        
+    }
+
+    .msg{
+        grid-column: 1/5;
+        margin-bottom: 20px;        
+        grid-row: 1/2;       
+    }
+
+    .msg p{
+        padding: 15px;
+        font-size: 1.3rem; 
+    }
   
 }

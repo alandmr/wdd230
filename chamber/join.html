@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for chamber of commerce">
+    <meta name="author" content="Aland Muñoz">
+    <meta property="og:title" content="Roraima Chamber Of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/alandmr/wdd230/blob/main/chamber/images/salto_angel.jpg">
+    <meta property="og:url" content="https://alandmr.github.io/wdd230/">
+    <title>Roraima Chamber of commerce - WDD230</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/tepuy.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/roraimabw.png" alt="Image Tepuy Roraima">
+        <div class="box">
+            <h2>Roraima Chamber Of Commerce</h2>
+        </div>
+
+        <div id="rrss">
+            <a href="#" class="social fa-brands fa-square-facebook fa-2x"></a>
+            <a href="#" class="social fa-brands fa-square-instagram fa-2x"></a>
+            <a href="#" class="social fa-brands fa-square-x-twitter fa-2x"></a>
+        </div>
+
+
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html" class="active">Join</a></li>
+
+        </ul>
+    </nav>
+    <div id="mode">
+        🕶️
+    </div>
+    <main>
+        <section class="wf1">
+            <form action="thankyou.html" method="get" >
+                <fieldset>
+                    <label>First name* <input type="text" id="fname" name="fname" required></label>
+                    <label>Last name* <input type="text" id="lname" name="lname" required></label>
+                    <label>Title or position <input type="text" id="titleposition" name="titleposition" required
+                            pattern="[A-Za-z\s]{7}" title="Only alpha characters are allowed, max char allowed 7"></label>
+                    <label>Email* <input type="email" id="email" name="email" placeholder="Your email address"
+                            title="A valid email address." pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required></label>
+                    <label>Mobile phone number* <input type="tel" id="tel" name="tel" placeholder="1235551234" required></label>
+                    <label>Business/organization's name* <input type="text" id="orgName" name="orgName" required></label>
+    
+                    <div>Membership level</div>
+                    <label><input type="radio" name="memberType" value="npmembership">NP Membership</label>
+                    <label><input type="radio" name="memberType" value="bronzemembership">Bronze Membership</label>
+                    <label><input type="radio" name="memberType" value="silvermembership">Silver Membership</label>
+                    <label><input type="radio" name="memberType" value="goldmembership">Gold Membership</label>
+    
+                    <label>Business/organization's description<textarea name="orgDescription" id="orgDescription"></textarea></label>
+                    <input type="hidden" id="currDateTime" name="currDateTime">
+                </fieldset>
+                <input type="submit" id="join" name="join" value="Join">
+            </form>
+        </section>
+        <section class="membershipDetails">
+
+            <div id="npmembershipD" class="card">
+                <h2>Non profit Membership</h2>                
+                <ul>
+                    <li><span id="textBold">Access to Basic Resources: </span>Provide access to essential resources such as newsletters, articles, and basic educational content.</li>
+                    <li><span id="textBold">Community Engagement: </span>Encourage interaction, collaboration, and idea-sharing among free members.</li>
+                    <li><span id="textBold">Access to Resources: </span>You’ll gain access to a network of professionals within the organization, allowing you to connect, collaborate, and learn.</li>
+                    <li><span id="textBold">Limited Discounts and Savings: </span>While free members may not receive substantial discounts, consider offering occasional promotions or small savings on events or merchandise.</li>
+                    <li><span id="textBold">Advocacy and Representation: </span>Ensure that free members have a voice within the organization.</li>
+                </ul>
+            </div>
+
+            <div id="bronzems" class="card">
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li><span id="textBold">Recognition: </span>As a Bronze member, you’ll be acknowledged for your support and commitment to the organization.</li>
+                    <li><span id="textBold">Access to Resources: </span>You’ll gain access to a network of professionals within the organization, allowing you to connect, collaborate, and learn.</li>
+                    <li><span id="textBold">Discounts: </span>Enjoy discounts on products, services, and events offered by the non-profit.</li>
+                    <li><span id="textBold">Professional Development: </span>Opportunities for continuing professional education (CPE) and skill enhancement.</li>
+                </ul>
+            </div>
+
+            <div id="silverms" class="card">
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li><span id="textBold">Extended Recognition: </span>Silver members receive even greater recognition for their long-term commitment.</li>
+                    <li><span id="textBold">Exclusive Content: </span>Access to specialized content, webinars, and publications.</li>
+                    <li><span id="textBold">Priority Invitations: </span>Be among the first to receive invitations to events, conferences, and workshops.</li>
+                    <li><span id="textBold">Enhanced Networking: </span>Connect with other Silver members and industry experts.</li>
+                </ul>
+            </div>
+
+            <div id="goldms" class="card">
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li><span id="textBold">Distinguished Recognition: </span>Gold members are celebrated for their significant contributions.</li>
+                    <li><span id="textBold">VIP Treatment: </span>Exclusive perks, such as special monthly offers, sneak previews, and free access to premium content.</li>
+                    <li><span id="textBold">Free CPE Opportunities: </span>Participate in additional CPE activities at no extra cost.</li>
+                    <li><span id="textBold">Special Events: </span>Attend VIP events at conferences and educational gatherings.</li>
+                </ul>
+            </div>
+
+        </section>        
+    </main>
+
+    <footer>
+        <p id="year"></p>
+        <p id="updated">Last updated:</p>
+    </footer>
+    <script src="scripts/join.js"></script> 
+    <script src="scripts/getdates.js"></script>    
+    <script src="https://kit.fontawesome.com/f7278edc8b.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

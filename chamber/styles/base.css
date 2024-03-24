@@ -357,6 +357,98 @@ ol {
 	  
   }
 
+  /* FORM STYLE*/
+
+:root{
+    --label-color:#274C77;
+	--label-colo2:#000;
+    --color-gradient1:#274C77;
+    --color-gradient2:#3586b6;    
+}
+.wf1 fieldset{    
+    border: 1px solid #1b1d7a;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 label{
+    display: block;
+    padding-top: 1rem;
+    color: var(--label-color2);
+    font-size: .9rem;
+	
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+.wf1 textarea{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(var(--color-gradient1),var(--color-gradient2));
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 2rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.wf1 input[type="submit"]:hover{
+    background-image: linear-gradient(var(--color-gradient2),var(--color-gradient1));
+}
+
+.wf1 input:required{
+    border-right: solid 8px red;
+}
+
+.wf1 input:required:valid{
+    border-right: solid 8px green;
+}
+
+.wf1{
+	margin: 10px 10px;
+}
+
+.wf1 div{
+    padding-top: 1rem;    
+    font-size: 1rem;
+	font-weight: bold;
+}
+
+.membershipDetails ul{
+	list-style: circle;        
+}
+
+.membershipDetails li{
+	margin-bottom: 10px;
+}
+
+#textBold{
+	font-weight: bold;
+}
+
+#npmembershipD,#bronzems,#silverms,#goldms{
+	display: none;
+}
+
+.msg p{
+    font-size: 1.2rem; 
+}
+
+
   @media screen and (min-width: 500px) {
 	nav ul {
 		display: flex;
@@ -364,7 +456,6 @@ ol {
 	nav ul li {
 		flex: 1 1 100%;
 	}
-
 
 }
 

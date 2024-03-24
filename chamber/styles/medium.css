@@ -96,6 +96,10 @@
         object-fit: cover;
     }
 
+    .wf1{
+        grid-column: 1/4;
+    }
+
 
 
 }
