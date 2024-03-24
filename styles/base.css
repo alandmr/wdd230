@@ -143,6 +143,12 @@ footer, p{
     margin-block-start: 0px;  
 }
 
+
+
+.msg p{
+    font-size: 1.2rem; 
+}
+
 p{
     text-align: center;
     margin-block-start: 0px;
@@ -188,6 +194,8 @@ hr{
     display: block;
     margin: auto;
 }
+
+
 
 @media (min-width: 640px) {
 	nav ul {

@@ -30,6 +30,17 @@
         
     }
 
+    .msg{
+        grid-column: 1/4;
+        margin-bottom: 20px;        
+        grid-row: 1/2;       
+    }
+
+    .msg p{
+        padding: 15px;
+        font-size: 1.3rem; 
+    }
+
     iframe{
         grid-column: 1/4;
         grid-row: 5/6;        
