@@ -428,6 +428,10 @@ ol {
 	font-weight: bold;
 }
 
+.wf1 input[type="radio"]{
+    margin-right: 6px;
+}
+
 .membershipDetails ul{
 	list-style: circle;        
 }
