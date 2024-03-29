@@ -1,0 +1,108 @@
+{
+    "lessons": [
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/mediaquery.html",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "lesson03/images/combinators_exercise.png",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "https://codepen.io/Aland-Mu-oz/pen/dyrjKNm",
+                    "title": "Pseudo-Element"
+                },
+                {
+                    "url": "https://codepen.io/Aland-Mu-oz/pen/XWGPjpw",
+                    "title": "Responsive Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Aland-Mu-oz/pen/BabvZyO",
+                    "title": "CSS Pseudo-Classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "Book of Mormon Favorite Chapters Application"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "BOF - Web Storage API"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Html Tables"
+                },
+                {
+                    "url": "lesson08/index.html",
+                    "title": "Html Forms-Start"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Form Built"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "Json"
+                },
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "The Fetch API"
+                }
+            ]
+        }
+    ]
+}

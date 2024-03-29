@@ -32,7 +32,7 @@
 			lastestVisitDisplay.textContent = `You last visited ${nTimes} day ago`;
 			localStorage.setItem("lastestVisit",today);
 		}else{
-			lastestVisitDisplay.textContent = `You last visited ${nTimes} days ago`;
+			lastestVisitDisplay.textContent = `You last visited ${Math.round(nTimes)} days ago`;
 			localStorage.setItem("lastestVisit",today);
 		}				
 	}

@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+    "familyName": "Muñoz",
+    "moveInDate": "2023-12-18",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Aland Muñoz",
+        "gender": "Male",
+        "birthdate": "1989-02-12"
+      },
+      {
+        "name": "Adahannys Barreto",
+        "gender": "Female",
+        "birthdate": "1993-05-26"
+      },
+      {
+        "name": "Abram Muñoz",
+        "gender": "Male",
+        "birthdate": "2015-08-18"
+      },
+      {
+        "name": "Aland Manuel Muñoz",
+        "gender": "Male",
+        "birthdate": "2019-07-05"
+      }
+    ]
+    }
+}
