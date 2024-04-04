@@ -42,4 +42,4 @@ fetch(`${apiEndpoint}?appid=${apiKey}&q=${encodeURIComponent('Barcelona, VE')}&u
     
   })
   .catch(error => console.error(error))
-
+  
