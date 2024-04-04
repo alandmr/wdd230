@@ -452,6 +452,99 @@ ol {
     font-size: 1.2rem; 
 }
 
+/* CSS 	FOR DIRECTORY PAGE*/
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
+
+.grid section {
+	text-align: center;
+}
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+	
+}
+
+.grid p{
+	padding: 3px;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;	
+	align-content: center;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #669CBC;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0;
+	padding: 0.25rem;
+	background-color: #274C77;
+	color: #fff;		
+}
+
+.list section a{
+	color: #fff;
+}
+
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+	background-color: transparent;	
+}
+
+.list section:nth-child(even) {
+	background-color: #669CBC;
+	color: #000;
+}
+
+.list section:nth-child(even) h3{
+		color: #000;
+}
+
+.list section:nth-child(even) a{
+	color: #000;
+}
+
 
   @media screen and (min-width: 500px) {
 	nav ul {
@@ -460,7 +553,7 @@ ol {
 	nav ul li {
 		flex: 1 1 100%;
 	}
-
+  
 }
 
 

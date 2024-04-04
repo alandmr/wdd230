@@ -1,0 +1,62 @@
+{
+    "companies": [
+        {
+            "name": "Comercializadora Los Andes, C.A",
+            "address": "Calle 10, Edificio Los Andes, Piso 2, Oficina 2-5, Mérida 5101, Mérida, Venezuela",
+            "phone": "+58 274-1234567",
+            "url": "https://www.facebook.com/DistribuidoraLosAndesGroup/",
+            "image": "images/logo-losandes.png",
+            "membershipLevel": "NP Membership"
+        },
+                
+        {
+            "name": "Sirius Company",
+            "address": " Calle Libertad, 6301 Los Robles, Nueva Esparta, Venezuela",
+            "phone": "+51 929 080 653",
+            "url": "https://siriuscompanyve.com/",
+            "image": "images/logo-sirius.png",
+            "membershipLevel": "Bronze Membership"
+        },
+        {
+            "name": "Vibo Fabrica",
+            "address": "Avenida Guzmán Lander, local #3505, Barcelona 6001, Anzoátegui, Venezuela",
+            "phone": "+58 281-2766354",
+            "url": "https://www.facebook.com/p/Vibove-100068734344443/?paipv=0&eav=AfavIDsbxs5_Hr8oh0TI5iZ3L5tdN9iezBSUZ1-936XgFhn8ciA-1pZ4KQkMv53vl3A&_rdr",
+            "image": "images/logo-vibo.png",
+            "membershipLevel": "Silver Membership"
+        },
+                
+        {
+            "name": "Global Host CA",
+            "address": "Av. Principal de barrio Sucre Edificio C.C Oficentro Valdoust, Barcelona 6001, Anzoategui Venezuela",
+            "phone": "+58 281-9350279",
+            "url": "https://globalhost.com.ve/",
+            "image": "images/logo-global.png",
+            "membershipLevel": "Gold Membership"
+        },
+        {
+            "name": "El Morro Casa de Representacion C.A.",
+            "address": "Local Aerocentro Centro Empresarial, Galpón 60 y 61, Redoma de los Pájaros, Barcelona, Anzoátegui",
+            "phone": "+58 281-2718245",
+            "url": "https://www.elmorrocdr.com/",
+            "image": "images/logo-elmorro.png",
+            "membershipLevel": "Gold Membership"
+        },
+        {
+            "name": "Soluciones Lopnet, C.A",
+            "address": "Av Municipal, Edif Torre Porteña, piso 2, Ofic 2-9., 6023 Puerto La Cruz, Anzoátegui, Venezuela",
+            "phone": "+58 424-8388305",
+            "url": "http://www.solucioneslopnet.com/",
+            "image": "images/logo-lopnet.png",
+            "membershipLevel": "Silver Membership"
+        },
+        {
+            "name": "Belco Corp",
+            "address": "Avenida Raul Leoni, Barcelona 6001, Anzoátegui, Venezuela",
+            "phone": "+58 281-5141701",
+            "url": "https://belco.com.ve/",
+            "image": "images/logo-belco.png",
+            "membershipLevel": "Gold Membership"
+        }
+    ]
+}
