@@ -88,7 +88,7 @@ main {
 }
 
 .hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/salto_angel.webp");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/salto-angel-small.webp");
 	height: 200px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -96,6 +96,7 @@ main {
 	position: relative;	
 	max-width: 746px;
 	border-radius: 5px;
+	margin: 10px 10px;
   }
 
   .hero-text {
@@ -106,6 +107,7 @@ main {
 	transform: translate(-50%, -50%);
 	color: white;
 	width: 100%;
+	font-size: .8rem;
   }
 
   .hero-text button {
@@ -117,7 +119,7 @@ main {
 	background-color: #ddd;
 	text-align: center;
 	cursor: pointer;
-	margin-top: 40px;
+	margin-top: 15px;	
   }
 
   .hero-text button:hover {
