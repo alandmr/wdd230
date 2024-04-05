@@ -146,6 +146,17 @@ main {
 	content: "❌";
 }
 
+.banner{
+	display: none;
+	flex-direction: row;
+	background-color:#ffffbc;        	
+	padding: 15px;
+	width: 97%;        
+}
+
+div button{
+	margin: auto;
+}
 
 .n1 li::before{
 	content: "► ";

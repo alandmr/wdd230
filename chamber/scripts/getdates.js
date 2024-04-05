@@ -29,3 +29,22 @@ modeButton.addEventListener("click", () => {
 	}
 });
 
+const btnClose = document.querySelector(".btnClose");
+
+btnClose.addEventListener("click",() =>{
+	document.querySelector(".banner").style.display = "none";
+	
+})
+
+function showBanner() {
+	
+    let today = new Date().getDay();
+    if (today > 0  && today < 4) {
+        document.querySelector(".banner").style.display = "flex";
+    }
+}
+
+showBanner();
+
+
+

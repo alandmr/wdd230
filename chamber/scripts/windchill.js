@@ -43,9 +43,7 @@ function capitalizeFirstLetter(string) {
 // Fetching temperature data
 fetch(`${apiEndpoint}?appid=${apiKey}&q=${encodeURIComponent('Barcelona, VE')}&units=imperial`)
   .then(response => response.json())
-  .then(data => {   
-    
-    console.log(data);
+  .then(data => {       
     
     tempa = data.list[0].main.temp;    
     wspeed = data.list[0].wind.speed*2.237;
