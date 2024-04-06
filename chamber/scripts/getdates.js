@@ -32,15 +32,19 @@ modeButton.addEventListener("click", () => {
 const btnClose = document.querySelector(".btnClose");
 const btnJoinUs = document.querySelector(".joinUs");
 
-btnClose.addEventListener("click",() =>{
-	document.querySelector(".banner").style.display = "none";
-	
-})
+if (btnClose != null){
+	btnClose.addEventListener("click",() =>{
+		document.querySelector(".banner").style.display = "none";
+		
+	})
+}
 
-btnJoinUs.addEventListener("click",() =>{
-	window.location.href = "join.html";
-	
-})
+if (btnJoinUs != null){
+	btnJoinUs.addEventListener("click",() =>{
+		window.location.href = "join.html";
+		
+	})
+}
 
 function showBanner() {
 	

@@ -2,8 +2,7 @@ const companiesInfo = "data/members.json";
 
 async function getCompanies() {
     const response = await fetch(companiesInfo);
-    const data = await response.json();
-    console.log(data);
+    const data = await response.json();    
     displayCompanies(data.companies);
     
   }
