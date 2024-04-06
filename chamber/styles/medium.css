@@ -52,6 +52,10 @@
         
     }
 
+    .box h1{
+        font-size: 1.8rem;
+      }
+
     .c2 h2{
         grid-column: 1/4;
     }
