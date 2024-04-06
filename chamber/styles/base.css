@@ -25,6 +25,13 @@ body{
     align-content: center;
 }
 
+.cardP p{
+	font-size: 0.9em; 
+	text-align: start; 
+	margin-left: 10px; 
+	margin-top: 5px;
+}
+
 .social{
 	grid-column: 4/5;
 	color: white;
@@ -182,8 +189,14 @@ div button{
 	width: 90%;
 	margin: auto;
 	margin-top: 20px;
-	border-radius: 5px;		
+	border-radius: 5px;	
+	margin-bottom: 20px;	
 	
+}
+
+.c2-images p{
+	margin-top: -15px;
+	font-weight: bold;
 }
 
 .c2-images img:hover{
@@ -343,6 +356,11 @@ hr{
 
 }
 
+#msg-welcome{	
+	grid-column: 1/1;
+	font-size: .9rem;
+	text-align: center;
+}
 
 ol {
 	display: grid;
@@ -352,7 +370,7 @@ ol {
   }
 
   .first-day {
-	grid-column-start: 5
+	grid-column-start: 2
   }
 
   li {

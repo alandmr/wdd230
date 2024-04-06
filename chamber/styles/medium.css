@@ -76,6 +76,11 @@
         grid-row: 3/4;
     }
 
+    #msg-welcome{
+        grid-row: 1/1;
+        grid-column: 1/5;
+    }
+
     .c2 img{
         display: block;
         margin: auto;

@@ -87,15 +87,18 @@
 
     .c2-images{        
         grid-column: 3/5;
-        
+        grid-row: 2/2;        
+    }
+
+    #sitebarDiscover{
+        grid-row: 2/2;
     }
 
     .c2-images img{
-        display: block;
-        margin: auto;
+        display: block;        
         width: 90%;       
         border-radius: 5px;
-        margin-top: 20px;        
+        /* margin-top: 20px;         */
     }
 
     .c2-images img:hover{        
