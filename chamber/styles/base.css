@@ -368,7 +368,7 @@ ol {
   }
 
   .first-day {
-	grid-column-start: 2
+	grid-column-start: 1
   }
 
   li {
