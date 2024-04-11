@@ -1,0 +1,70 @@
+@media screen and (min-width: 1200px){
+    .logo{
+        margin-right: 100px;
+    }
+
+    .hero-text {	
+        position: absolute;
+        top: 75%;
+        left: 62%;	
+        color: white;
+        font-size: 2.2rem;
+        
+    }
+
+    .hero button {	
+        position: absolute;
+        top: 88%;
+        left: 71%;	
+        color: white;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 8px;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: #CF2D30;
+        background-color: white;
+        text-align: center;
+        cursor: pointer;        
+    } 
+    .slideshow-container {
+        max-width: 900px;    
+        position: relative;
+        margin: auto;
+      }
+}
+
+@media screen and (min-width: 1330px){
+    .logo{
+        margin-right: 100px;
+    }
+
+    .hero-text {	
+        position: absolute;
+        top: 74%;
+        left: 60%;	
+        color: white;
+        font-size: 3rem;
+        
+    }
+
+    .hero button {	
+        position: absolute;
+        top: 90%;
+        left: 69%;	
+        color: white;
+        font-size: 2rem;
+        border: none;
+        border-radius: 8px;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: #CF2D30;
+        background-color: white;
+        text-align: center;
+        cursor: pointer;        
+    }
+
+   
+}

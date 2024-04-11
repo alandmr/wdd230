@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final proyect Scooter page - WDD230">
+    <meta name="author" content="Aland Muñoz">
+    <meta property="og:title" content="Scooter Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://www.dviaje.com.ve/wp-content/uploads/2023/07/santo-domingo-del-tachira-1024x683.jpg">
+    <meta property="og:url" content="https://alandmr.github.io/wdd230/">
+    <title>Scooter Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div id="contact">
+            <p class="envelope"><a href="#" class="social"><i class="fa-solid fa-envelope"></i></a> scooters_mobility@mail.com</p>
+            <p class="phone"><a href="#" class="social"><i class="fa-solid fa-phone"></i></a> +52 123-45677788</p>
+        </div>
+        <div id="rrss">
+            <a href="#" class="social fa-brands fa-square-facebook fa-2x"></a>
+            <a href="#" class="social fa-brands fa-square-instagram fa-2x"></a>
+            <a href="#" class="social fa-brands fa-square-x-twitter fa-2x"></a>
+        </div>
+    </header>
+    <button id="hamburgerMenu"></button>
+    <nav>
+        <div class="logo">
+            <img src="images/logo-scoots.webp" alt="logo">
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html" class="activeMenu">Rentals</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <main class="grid rental-container">
+        <div class="grid"></div>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div> 
+           
+    </main> 
+    <footer>
+        <p id="year"></p>
+        <p id="updated">Last updated:</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/f7278edc8b.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/rental-data.js"></script>
+</body>
+
+</html>

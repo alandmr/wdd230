@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final proyect Scooter page - WDD230">
+    <meta name="author" content="Aland Muñoz">
+    <meta property="og:title" content="Scooter Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://www.dviaje.com.ve/wp-content/uploads/2023/07/santo-domingo-del-tachira-1024x683.jpg">
+    <meta property="og:url" content="https://alandmr.github.io/wdd230/">
+    <title>Scooter Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div id="contact">
+            <p class="envelope"><a href="#" class="social"><i class="fa-solid fa-envelope"></i></a> scooters_mobility@mail.com</p>
+            <p class="phone"><a href="#" class="social"><i class="fa-solid fa-phone"></i></a> +52 123-45677788</p>
+        </div>
+        <div id="rrss">
+            <a href="#" class="social fa-brands fa-square-facebook fa-2x"></a>
+            <a href="#" class="social fa-brands fa-square-instagram fa-2x"></a>
+            <a href="#" class="social fa-brands fa-square-x-twitter fa-2x"></a>
+        </div>
+    </header>
+    <button id="hamburgerMenu"></button>
+    <nav>
+        <div class="logo">
+            <img src="images/logo-scoots.webp" alt="logo">
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="contactUs.html" class="activeMenu">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="wf1">
+            <form action="thankyou.html" method="get" >
+                <fieldset>
+                    <label>First name* <input type="text" id="fname" name="fname" required></label>
+                    <label>Last name* <input type="text" id="lname" name="lname" required></label>                    
+                    <label>Email* <input type="email" id="email" name="email" placeholder="Your email address"
+                            title="A valid email address." pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required></label>           
+                    <label>Comment<textarea name="orgDescription" id="orgDescription"></textarea></label>
+                    <input type="hidden" id="currDateTime" name="currDateTime">
+                </fieldset>
+                <input type="submit" id="apply" name="apply" value="Apply">
+            </form>            
+        </section>
+       
+        <div class="map">
+            <iframe loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sve!4v1712835870135!5m2!1sen!2sve"
+            allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+                           
+    </main> 
+    <footer>
+        <p id="year"></p>
+        <p id="updated">Last updated:</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/f7278edc8b.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

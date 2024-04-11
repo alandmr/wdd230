@@ -1,0 +1,258 @@
+@media  screen and (min-width: 550px){
+    #hamburgerMenu {
+		display: none; /* hide hamburger button */        
+	}
+     
+    #rrss{ 
+        display: block;   
+        align-content: center;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: 3px solid #CF2D30;
+        padding-bottom: 10px;
+    }
+
+    nav a{
+        font-size: 1.5rem;
+
+    }
+
+    nav ul{
+        display: flex;
+        width: fit-content;
+        margin-top: 20px;
+        
+    }
+
+    .navigation {        
+               
+        grid-column: 2/2;
+        font-size: large;
+    }
+
+    .navigation a{
+        display: block;
+    }
+
+    .logo{                        
+        justify-self: end;
+        width: 70px;        
+        grid-column: 1/2;  
+        margin-right: 80px;   
+        margin-top: 10px;           
+    }  
+
+    .logo img{
+        display: block;
+    }
+
+    .hero-text {	
+        position: absolute;
+        top: 73%;
+        left: 60%;	
+        color: white;
+        font-size: 1.2rem;
+        
+    }
+
+    .hero button {	
+        position: absolute;
+        top: 88%;
+        left: 67%;	
+        color: white;
+        font-size: .9rem;
+        border: none;
+        border-radius: 8px;
+        outline: 0;
+        display: inline-block;
+        padding: 5px 25px;
+        color: #CF2D30;
+        background-color: white;
+        text-align: center;
+        cursor: pointer;        
+        }
+
+    #container{
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    #siteBar{
+        grid-column: 1/2;
+    }
+
+    .c2{        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: 3/3;
+        grid-column: 2/4
+        
+    }
+
+    .c2 h2{
+        grid-column: 1/4;
+    }
+
+    .c2 img{
+        display: block;
+        margin: auto;
+    }
+
+    .weather1{
+        grid-column: 2/2;
+        grid-row: 2/3;
+    }
+
+    .weather2{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .weather3{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .weather4{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .c2 p{
+        text-align: center;
+        margin: 0;
+    }
+
+    .slideshow-container {
+        max-width: 500px;    
+        position: relative;
+        margin: auto;
+      }
+
+    .envelope{
+        display: block;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 5px;
+        align-items: center;
+    }
+
+    .menu {
+        grid-column: 1/4;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr 2fr 2fr 2fr 2fr;
+        margin: 0;
+        padding: 0.25rem;
+        background-color: #CF2D30;
+    }
+
+    .rental-container{               
+        max-width: 800px;  
+        margin: auto;           
+    } 
+    .wf1{
+        margin: 10px 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid section > * {
+        margin: 0.1rem;
+    }
+
+    .wf1 fieldset{    
+        width: 400px;    
+    }
+
+    .msg p{
+        font-size: 1.5rem; 
+        text-align: center;
+    }
+
+    iframe{
+        width: 100%;
+        height: 600px;
+        padding: 10px;
+        border:0;
+      
+      }
+}
+
+@media  screen and (min-width: 700px){
+
+    .navigation {                
+        grid-column: 2/2;
+        font-size: large;
+    }
+
+    .hero-text {	
+        position: absolute;
+        top: 73%;
+        left: 60%;	
+        color: white;
+        font-size: 1.5rem;        
+    }
+
+    .hero button {	
+        position: absolute;
+        top: 88%;
+        left: 67%;	
+        color: white;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        outline: 0;
+        display: inline-block;
+        padding: 5px 25px;
+        color: #CF2D30;
+        background-color: white;
+        text-align: center;
+        cursor: pointer;        
+        }
+}
+
+@media  screen and (min-width: 900px){
+
+    .navigation {                        
+        grid-column: 2/2;
+        font-size: large;
+    }
+
+    .hero-text {	
+        position: absolute;
+        top: 72%;
+        left: 60%;	
+        color: white;
+        font-size: 2rem;        
+    }
+
+    .hero button {	
+        position: absolute;
+        top: 88%;
+        left: 69%;	
+        color: white;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 8px;
+        outline: 0;
+        display: inline-block;
+        padding: 5px 25px;
+        color: #CF2D30;
+        background-color: white;
+        text-align: center;
+        cursor: pointer;        
+        }
+}

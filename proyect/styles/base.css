@@ -1,0 +1,535 @@
+form  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #3E4055;
+    height: 50px;
+}
+
+#rrss{    
+    display: none;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-content: center;    
+    color: white; 
+    margin-left: 50px;
+}
+
+#contact p{
+    margin-left: 15px;
+}
+
+#contact i{
+    margin-right: 5px;
+}
+
+.social{
+    color: white;
+    text-decoration: none;    
+}
+
+img{
+    width: 100px;
+}
+.c2 img{
+    width: auto;
+}
+
+.c2-images img{    
+    width: 50%;    
+}
+
+#hamburgerMenu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: .8rem;
+	left: 1rem;
+}
+
+#hamburgerMenu::before {
+	content: "☰";
+    color: white;
+}
+
+#hamburgerMenu.open::before {
+	content: "❌";
+}
+
+.open a {
+	display: block;
+}
+
+.envelope{
+    display: none;
+}
+
+nav{            
+    box-shadow: 1px 1px 4px #999;        
+}
+
+nav ul {
+	list-style-type: none;       
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav a{
+    color: black;    
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;   
+    display: none;    
+}
+
+.logo img{
+    display: none;
+}
+
+.activeMenu{
+  color: #CF2D30;	
+}
+
+
+nav a:hover {
+	text-decoration:none;	
+	color: #CF2D30;	
+}
+
+.hero{    
+    position: relative;
+}
+
+.hero img{
+    width: 100%;    
+}
+
+.hero-text {
+	
+	position: absolute;
+	top: 70%;
+	left: 57%;	
+	color: white;
+	font-size: .9rem;
+  }
+
+  .hero button {	
+    position: absolute;
+    top: 87%;
+    left: 66%;	
+    color: white;
+    font-size: .6rem;
+    border: none;
+    border-radius: 8px;
+    outline: 0;
+    display: inline-block;
+    padding: 3px 15px;
+    color: #CF2D30;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;        
+    }
+
+  .hero button:hover {
+		background-color: #3E4055;
+        color: white;
+  }
+
+  .card{
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.card h2{    
+    text-align: center;
+    background-color: #CF2D30;
+    color: white;
+    height: 50px;
+    align-content: center;
+    margin: 0;
+}
+
+.cardP p{
+	font-size: 0.9em; 
+	text-align: start; 
+	margin-left: 10px; 
+	margin-top: 5px;
+}
+
+.day-name {        
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 2px;
+	padding: 4px;
+	text-align: center;
+  }
+
+  ol {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	list-style: none;
+	padding: 0;	
+  }
+
+  .first-day {
+	grid-column-start: 1
+  }
+
+  li {
+	font-size: 1.5ch;
+  }
+
+  .card > div{
+ 
+	text-align: center;
+	width: auto;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+	Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	  
+  }
+
+  /* Slideshow container */
+.slideshow-container {
+    max-width: 300px;    
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides, .mySlides2 {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev{
+    left: 0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    text-align: center;    
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #000000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot, .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 20px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover, .dot2:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+footer{    
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    background-color: #3E4055;                       
+    color: white;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    flex-direction: column;         
+    
+}
+
+footer p{
+    margin: 0;
+}
+
+#updated{
+    color: yellow;
+}
+
+
+/* CSS 	FOR DIRECTORY PAGE*/
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
+
+.grid section {
+	text-align: center;
+}
+
+.grid img {
+	width: 150px;
+	
+}
+
+.grid p{
+	padding: 3px;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;	
+	align-content: center;
+  background-color: #CF2D30;
+  margin: 0;
+  color: white;
+  height: 40px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #669CBC;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0;
+	padding: 0.25rem;
+	background-color: #274C77;
+	color: #fff;		
+}
+
+.list section a{
+	color: #fff;
+}
+
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+	background-color: transparent;	
+}
+
+.list section:nth-child(even) {
+	background-color: #e3e9ec;
+	color: #000;
+}
+
+.list section:nth-child(even) h3{
+		color: #000;
+}
+
+.list section:nth-child(even) a{
+	color: #000;
+}
+
+
+  /* FORM STYLE*/
+
+  :root{
+    --label-color:#274C77;
+	--label-colo2:#000;
+    --color-gradient1:#CF2D30;
+    --color-gradient2:#962729;    
+}
+.wf1 fieldset{    
+    border: none;
+    border-radius: 6px;
+    padding: .5rem 2%;  
+    width: 90%;
+
+}
+
+.wf1 label{
+    display: block;
+    padding-top: 1rem;
+    color: var(--label-color2);
+    font-size: .9rem;
+	
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+.wf1 input[type="date"],
+.wf1 textarea{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 350px;
+    appearance: none;
+}
+
+.wf1 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(var(--color-gradient1),var(--color-gradient2));
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 2rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.wf1 input[type="submit"]:hover{
+    background-image: linear-gradient(var(--color-gradient2),var(--color-gradient1));
+}
+
+.wf1 input:required{
+    border-right: solid 8px red;
+}
+
+.wf1 input:required:valid{
+    border-right: solid 8px green;
+}
+
+.wf1{
+	margin: 10px 10px;
+  box-sizing: border-box;
+}
+
+.wf1 div{
+    padding-top: 1rem;    
+    font-size: 1rem;
+	  font-weight: bold;
+}
+
+.wf1 input[type="radio"]{
+    margin-right: 6px;
+}
+
+section.agreements{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.agreements ul{
+	list-style: circle;        
+}
+
+.agreements li{
+	margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+#textBold{
+	font-weight: bold;
+}
+
+
+.msg p{
+    font-size: 1rem; 
+    text-align: center;
+}
+
+iframe{
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  border:0;
+
+}
+
+.map{
+  display: flex;
+  justify-content: center;  
+}
+
+ 
+
+
+
