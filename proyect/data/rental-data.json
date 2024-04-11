@@ -120,7 +120,7 @@
         {
             "description": "Jeep Wrangler - 2 door",
             "maxPersons": 4,
-            "image":"images/jeep-2door.png",
+            "image":"images/jeep-2door-xxs.png",
             "reservationType": [
                 {
                     "descType":"Reservation",
